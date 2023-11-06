@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles_TP_integrador.CSS">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg .navbar-light bg-secondary position-fixed" style="z-index: 100;">
+    <div class="container-fluid">
+
+        <img src="./img/codoacodo.png" alt="logo codo a codo" width="10%">
+        <!--
+        <a aria-current="page" href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/" target="_blank"> <img src="./img/codoacodo.png" alt="logo codo a codo" width="50%"> </a>
+    -->
+      <a class="navbar-brand" id="LetraBlanca" href="#" >Conf Bs As</a>
+
+
+      <button class="navbar-toggler bg- " id="LetraBlanca" type="button"  data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">  <h2><b></b>↓↓↓</b></h2> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="BlancoBoton">La conferencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="BlancoBoton">Los Oradores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="BlancoBoton">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ancla-1" id="BlancoBoton">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./CompraTickets/compra-ticket.html" target="_blank" id="VerdeBoton">Comprar tickets</a>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+<!--fin de barra de navegacion -->
+
+<!--x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--->
+<!-- Este era la portada con (Boostrap 5) la cambie a pedido del profesor
+
+    <div class="card bg-dark text-white" style="text-align: right; margin: 0;">
+        <img src="./img/ba1.jpg" alt="Foto portada" width="100%" id="sinpadding" style="filter: brightness(50%);">
+            <div class="card-img-overlay" style="
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 800px;">
+
+                <div width="50%">
+                    
+                    <h5 class="card-title">Conf Bs As</h5>
+                    <p>
+                        Bs As llega por primera vez a Argentina. Un Evento para compartir con<br>
+                        nuestra comunidad el conocimiento y experiencia de los expertos que<br>
+                        están creando el futuro de Internet. Ven a conocer a miembres del<br>
+                        evento, a otros estudiantes de Codo a Codo y los oradores de primer<br>
+                        nivel que tenemos para ti. Te esperamos!
+                    </p>
+                    
+                    
+                    <br>
+                    <a href="#" class="btn btn-outline-light">Quiero Ser Orador</a>
+                    <a href="#" class="btn btn-success">Comprar Ticket</a>
+                </div>
+        </div>
+  </div>
+-->
+
+<!--Esta es la nueva cortada sin Boostrap 5 la cree con div-->
+  <div class="ContenedorPortada" id="SinMargen">
+        <img src="./img/ba1.jpg" alt="Foto portada" width="100%" id="sinpadding" style="filter: brightness(50%);">
+        
+    
+            <div class="CentradoPortada">
+                <h5 class="card-title">Conf Bs As</h5>                 
+                <p>
+                Bs As llega por primera vez a Argentina. Un Evento para compartir con<br>
+                nuestra comunidad el conocimiento y experiencia de los expertos que<br>
+                están creando el futuro de Internet. Ven a conocer a miembres del<br>
+                evento, a otros estudiantes de Codo a Codo y los oradores de primer<br>
+                nivel que tenemos para ti. Te esperamos!
+                </p>
+                <br>
+                <a href="#ancla-1" class="btn btn-outline-light">Quiero Ser Orador</a>  
+                <a href="./CompraTickets/compra-ticket.html" class="btn btn-success">Comprar Ticket</a>
+
+            </div>
+  </div>
+
+
+
+
+
+
+
+
+    <!--portada-->
+
+    <div class="container text-center" margin-top="10"! important>
+
+        <h6>CONOCE A LOS</h6>
+        <h2>ORADORES</h2>
+    </div>
+    
+    <div class="container text-center">
+        <div class="row">
+            <div class="col" style="padding: 0;" id=bordeGris >
+
+                    <div id=SinMargen>
+                        <img src="./img/steve.jpg" alt="foto stive" width="100%">
+                    </div>
+                    <div class="container text-lg-start">
+                        
+                        <button type="button" class="btn btn-warning px-1 py-0 fw-bold">JavaScript</button>
+                        <button type="button" class="btn btn-info text-white px-1 py-0 fw-bold">React</button>
+                        
+                        <h4>Steve Jobs</h4>
+                        <p>
+                            ¡Atención emprendedores y amantes de la tecnología! No pueden perderse la oportunidad de sumergirse en la mente brillante de Steve Jobs y encontrar la inspiración que necesitan para llevar sus proyectos al siguiente nivel.<br>
+
+                            Nuestra charla <b>"Steve Jobs: La Innovación que Cambió el Mundo"</b> es un viaje fascinante a través de la vida y la visión de uno de los emprendedores más influyentes de todos los tiempos.<br> Descubrirás cómo Jobs, cofundador de Apple, transformó la tecnología y la industria de los negocios con su creatividad y determinación incomparables.<br>
+                            
+                            En esta charla, exploraremos sus secretos para el éxito, su enfoque implacable en la calidad y la importancia de mantener la pasión por lo que haces. Aprenderás cómo superar los obstáculos, abrazar la innovación y crear productos que impacten en el mundo.<br>
+                            
+                            <B><i>¿Quieres desbloquear tu potencial emprendedor?</i></B> Esta charla te proporcionará las herramientas y la motivación que necesitas. Únete a nosotros y descubre cómo el legado de Steve Jobs puede iluminar tu camino hacia el éxito en la tecnología y más allá. ¡No te pierdas esta oportunidad única de aprender de uno de los genios más grandes de nuestra era!
+                        </p>
+                    </div>  
+            </div>
+            
+
+            <div class="col" style="padding: 0;"  id=bordeGris> 
+                    <div id=SinMargen>
+                        <img src="./img/bill.jpg" alt="foto bill" width="100%">
+                    </div>
+                    <div class="container text-lg-start">
+                        <button type="button" class="btn btn-warning px-1 py-0 fw-bold">JavaScript</button>
+                        <button type="button" class="btn btn-info text-white px-1 py-0 fw-bold">React</button>
+                        <h4>Bill Gates</h4>
+                        <p>
+                            ¡Emprendedores y apasionados de la tecnología, prepárense para una experiencia motivadora sin igual! Les presentamos la charlara inspiradora <b>"Bill Gates: El Camino hacia la Innovación y el Emprendimiento"</b>.
+
+                            En esta charla única, exploraremos la increíble historia de Bill Gates, el cofundador de Microsoft y una de las mentes más brillantes en el mundo de la tecnología. Descubrirás cómo Gates transformó una pequeña empresa en un gigante tecnológico y cómo su visión y pasión lo llevaron a revolucionar la forma en que vivimos, trabajamos y nos comunicamos.<br>
+                            
+                            A través de su historia de éxito, aprenderá valiosas lecciones sobre el emprendimiento, la innovación y la filantropía. Descubrirás cómo superar desafíos, abrazar el cambio y construir soluciones tecnológicas que cambiarán el mundo.<br>
+                            
+                            Esta charla te proporcionará la inspiración que necesitas para llevar tus proyectos tecnológicos al siguiente nivel. ¡No te pierdas la oportunidad de aprender de uno de los emprendedores más influyentes de la historia! Únete a nosotros y descubre cómo Bill Gates forjó su camino hacia el éxito y cómo puedes hacerlo tú también. ¡El futuro está en tus manos!
+                        </p>  
+                    </div>  
+            </div>
+
+
+            <div class="col" style="padding: 0;"style="padding: 0;"  id=bordeGris >
+
+                    <div class="col" id=SinMargen id="sinpadding">
+                        <img src="./img/ada.jpeg" alt="foto ada" width="100%">
+                    </div>
+
+                    <div class="container text-lg-start">
+                        <button type="button" class="btn btn-secondary px-1 py-0 fw-bold">Negocios</button>
+                        <button type="button" class="btn btn-danger text-white px-1 py-0 fw-bold">Startups</button>
+                        <h4>Ada Lovelace</h4>
+                        <p class="container text-lg-start">
+                            ¡Emprendedores y amantes de la tecnología, les invitamos a un viaje inspirador a través de la historia de la primera programadora, Ada Lovelace! Únete a nuestra charla "Ada Lovelace: Pionera en la Tecnología y la Imaginación".<br>
+
+                            En esta charla, exploraremos la vida y el legado de Ada Lovelace, una visionaria del siglo XIX que dejó una huella indeleble en el mundo de la tecnología. Descubrirás cómo Lovelace imaginó la idea de la programación mucho antes de que existieran las computadoras y cómo sus contribuciones sentaron las bases para la era digital en la que vivimos hoy.<br>
+
+                            A través de la historia de Ada Lovelace, <b><i>aprenderás poderosas lecciones sobre la perseverancia,la creatividad y la importancia de desafiar las normas establecidas</i></b>. Su pasión por la ciencia y la tecnología la llevó a un lugar de vanguardia en un mundo dominado por hombres, y su visión sigue inspirando a generaciones de mujeres emprendedoras.<br>
+
+                            Si buscando la motivación para enfrentar desafíos tecnológicos, esta charla estás para ti. Únete a nosotros y descubre cómo Ada Lovelace abrió el camino para la innovación tecnológica y cómo su legado puede impulsarte a ti también. ¡La tecnología del futuro está esperando que la descubras!
+                        </p>
+                    </div>
+                    
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+<!--ULTIMA PARTE-->
+<!--
+<div class="row">
+        <div class="container text-center" style="margin: 0%;">
+                    <div class="row" id="SinMargen" id="sinpadding">
+
+                        <div class="col" id="bordeGrisCuadrado" id="sinpadding" style="max-width: 50%;"  >
+                            <img src="./img/honolulu.jpg" alt="Foto honolulu" width="100%" >
+                        </div>
+                        <div class="card text-white bg-secondary mb-3" style="max-width: 50%;" style="margin: 0px;" id="bordeGrisCuadrado">
+                            <div class="card-body">
+                              <h5 class="card-title text-start">Bs As - Octubre</h5>
+                              <p class="row text-start">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos, Honolulu es la
+                                más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                                urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
+                                condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
+                                </p>
+                              <div id="BotonAlaDerecha">
+                                <a href="#" class="btn btn-outline-light align justify-content-around">Conocé más</a>
+                              </div>
+                            </div>
+
+                    </div>
+        </div>
+</div>
+-->
+
+
+<div id="ConoceMas">
+    <div style="max-width: 50%; margin: 0%;">
+        <img src="./img/honolulu.jpg" alt="Foto honolulu" width="100%" >
+    </div>
+    <div class="card text-white bg-secondary mb-3" style="max-width: 50%; margin: 0%; max-height:100%; border: 0px;">
+        <div class="card-body">
+          <h5 class="card-title text-start">Bs As - Octubre</h5>
+          <p class="row text-start">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos, Honolulu es la
+            más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+            urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
+            condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
+            </p>
+          <div id="BotonAlaDerecha">
+            <a href="#" class="btn btn-outline-light align justify-content-around">Conocé más</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container text-center" margin-top="10"! important>
+    <br>
+    <h6 id="ancla-1">CONVIERTÉTE EN UN</h6>
+    <h2>ORADOR</h2>
+    <h6>Anótate como oradorpara dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!</h6>
+</div>
+
+
+
+<!--Formulario-->
+<!--
+<div class="justify-content-center">
+    <div class="row"  class="container text-center">
+        <div class="row" >
+            <div class="col-md"  class="container text-center">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col-md">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+        </div>
+        <div class="mb" class="container text-center" style="padding: 40px;">  
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Sobre que quieres hablar?"></textarea>
+        </div>
+        
+        <div class="col-12">
+            <h6>Recuerda incluir un titulo para tu charla.</h6>
+            <button class="btn btn-success align-content-xxl-center"  id="BotonVerde" type="submit">Enviar</button>
+           
+        </div>
+    
+    </div>
+</div>
+-->
+
+
+
+<div id="SinMargen">
+    <div id="formulario" style="padding: 10px;">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+    </div>
+    <div id="formulario" style="padding: 10px;">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Sobre que quieres hablar?"></textarea>
+    </div>
+    <div style="padding: 10px;">
+        <h6>Recuerda incluir un titulo para tu charla.</h6>
+    </div>
+    <div style="padding: 10px;">
+        <button class="btn btn-success align-content-xxl-center"  id="BotonVerde" type="submit">Enviar</button>
+    </div>       
+
+</div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
+
+<div class="text-center" style="padding: 0px; margin: 0px;">
+<div id="PieDePagina">
+
+    <a class="nav-link active" aria-current="page" href="#" id="BlancoBoton">Preguntas Frecuentes</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Contactanos</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Prensa</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Conferencias</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Términos y condiciones</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Privacidad</a>
+    <a class="nav-link" href="#" id="BlancoBoton">Estudiantes</a>
+    
+</div>
+</div>
+
+
+
+  </nav>

@@ -1,0 +1,270 @@
+
+
+#VerdeBoton{
+    color:chartreuse;
+
+}
+
+#VerdeBoton:hover {
+    color:darkorange;
+    cursor: pointer;
+  }
+
+
+  #BlancoBoton{
+    color:aliceblue;
+
+}
+
+#BlancoBoton:hover {
+    color:darkorange;
+    cursor: pointer;
+  }
+
+
+#bordeGris{
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    border-radius: 5px;  
+}
+
+#PortadaCentrada{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#BotonAlaDerecha{
+
+    display: flex;
+    justify-content: flex;
+    margin-left: 0px;
+}
+
+#BotonAlaDerecha2{
+
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-left: 0px;
+}
+
+
+
+
+#bordeGrisCuadrado{
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+      
+}
+
+#lateral { width:300px; }
+
+#sinpadding{
+    
+}
+
+div{
+    margin: 10px;
+}
+
+#SinMargen{
+    margin: 0px;
+}
+#SINpadding
+
+p{
+text-align:justify;
+}
+
+
+
+#FondoGris{
+    background-color: dimgrey;
+    align-items: center;
+}
+
+#LetraBlanca{
+    color: aliceblue;
+}
+.btn-Form {
+    background-color: rgb(59, 207, 59);
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#BotonVerde{
+    background-color: rgb(59, 207, 59);
+    width: 100%;
+
+}
+
+#BotonVerde:hover {
+    color:darkorange;
+    background-color:lawngreen;
+    cursor: pointer;
+  }
+
+/*foto portada*/
+
+
+
+  .ContenedorPortada{
+    position: relative;
+    display: inline-block;
+    text-align: end;
+    color:aliceblue;
+}
+
+
+.TextoEncimaPortada{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.CentradoPortada{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-10%, -50%);
+}
+
+@media (max-width: 600px)
+    {
+    .CentradoPortada{
+        position:relative;
+        
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -0%);
+        color:black;
+        border: 100px;
+        text-align:justify;
+        background-color:dimgrey;
+        margin: 10px;
+           
+    }
+}
+
+
+
+#formulario{
+    display:flex;
+    justify-content: center;
+
+
+
+}
+#ConoceMas{
+    display: flex;
+    justify-content: center;
+    background-color: #6c757d;
+}
+
+@media (max-width: 600px)
+    {
+        #ConoceMas{
+            display: flex;
+            flex-direction: column;
+            
+            background-color: #6c757d;
+            width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+#PieDePagina{
+display:flex;
+justify-content: space-around;
+background: linear-gradient(to right, rgb(2, 2, 116), rgb(0, 117, 250));
+padding-inline-start: 0%;
+margin: 0%;
+}
+
+@media (max-width: 600px)
+    {
+        #PieDePagina{
+            display:flex;
+            flex-direction: column;
+            background: linear-gradient(to right, rgb(2, 2, 116), rgb(0, 117, 250));
+            padding-inline-start: 0%;
+            margin: 0%;
+            }
+
+    }
+
+
+/*   compra tickets   >>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+
+
+
+#bordeAzulCuadrado{
+    display: grid;
+    place-items: center;
+    margin: 5 px;
+    padding: 0px;
+    width: 250px; height: 250px;
+    border-style: solid;
+    border-color:rgb(38, 0, 253);
+    border-width: 1px;   
+}
+
+#bordeVerdeCuadrado{
+    display: grid;
+    place-items: center;
+    margin: 0 px; 
+    padding: 0px;
+    width: 250px; height: 250px;
+    border-style: solid;
+    border-color:rgb(0, 165, 8);
+    border-width: 1px;    
+}
+
+#bordeNaranjaCuadrado{
+    display: grid;
+    place-items: center;
+    margin: 0 px;
+    padding: 0px;
+    width: 250px; height: 250px;
+    border-style: solid;
+    border-color:rgb(248, 170, 1);
+    border-width: 1px;     
+}
+
+#Areadetikets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 600px)
+    {
+        #Areadetiket{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+}
+
+#formularioventa{
+    margin-left:12% ;
+    margin-right: 12%;
+}
